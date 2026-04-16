@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+// removed unused Image
 import MobileContainer from '@/components/layout/MobileContainer';
 import SearchBar from '@/components/ui/SearchBar';
 import BookCard from '@/components/ui/BookCard';

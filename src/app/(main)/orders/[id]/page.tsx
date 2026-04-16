@@ -2,7 +2,7 @@ import MobileContainer from '@/components/layout/MobileContainer';
 import PageHeader from '@/components/layout/PageHeader';
 import Button from '@/components/ui/Button';
 import Link from 'next/link';
-import { CheckCircle, Clock, Package } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
 
 export default function OrderDetailPage({ params }: { params: { id: string } }) {
   const orderId = params.id;

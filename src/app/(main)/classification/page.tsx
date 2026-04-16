@@ -1,4 +1,4 @@
-import Link from 'next/link';
+// removed unused Link
 import MobileContainer from '@/components/layout/MobileContainer';
 import PageHeader from '@/components/layout/PageHeader';
 import SearchBar from '@/components/ui/SearchBar';

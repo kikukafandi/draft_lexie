@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import MobileContainer from '@/components/layout/MobileContainer';
 import PageHeader from '@/components/layout/PageHeader';
-import { Plus, Search, StickyNote } from 'lucide-react';
+import { Plus, Search } from 'lucide-react';
 
 const notes = [
   { id: '1', title: 'Catatan Hukum Perdata', excerpt: 'Hukum perdata adalah hukum yang mengatur...', date: '12 Jan 2024', color: 'bg-[#FFDBAD]' },

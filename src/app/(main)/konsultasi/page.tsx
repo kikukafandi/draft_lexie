@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import MobileContainer from '@/components/layout/MobileContainer';
-import PageHeader from '@/components/layout/PageHeader';
 import { Send, Phone, Video, MoreVertical } from 'lucide-react';
 
 const messages = [

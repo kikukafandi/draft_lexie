@@ -1,7 +1,7 @@
 import MobileContainer from '@/components/layout/MobileContainer';
 import PageHeader from '@/components/layout/PageHeader';
 import Link from 'next/link';
-import { BookOpen, Star, Users, ChevronRight } from 'lucide-react';
+import { BookOpen, ChevronRight } from 'lucide-react';
 
 const recentBooks = [
   { title: 'Hukum Perdata Indonesia', progress: 65 },

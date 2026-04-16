@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+// removed unused useState
 import MobileContainer from '@/components/layout/MobileContainer';
 import PageHeader from '@/components/layout/PageHeader';
 import { Plus, MapPin, Edit2, Trash2 } from 'lucide-react';

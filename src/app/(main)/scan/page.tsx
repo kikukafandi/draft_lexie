@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import MobileContainer from '@/components/layout/MobileContainer';
 import PageHeader from '@/components/layout/PageHeader';
-import { Camera, Image, FileText, QrCode } from 'lucide-react';
+import { Camera, Image as ImageIcon, FileText, QrCode } from 'lucide-react';
 
 export default function ScanPage() {
   const [mode, setMode] = useState<'qr' | 'text' | 'doc'>('qr');
@@ -17,7 +17,7 @@ export default function ScanPage() {
           {[
             { id: 'qr', label: 'QR Code', icon: QrCode },
             { id: 'text', label: 'Teks', icon: FileText },
-            { id: 'doc', label: 'Dokumen', icon: Image },
+            { id: 'doc', label: 'Dokumen', icon: ImageIcon },
           ].map(({ id, label, icon: Icon }) => (
             <button
               key={id}
@@ -65,7 +65,7 @@ export default function ScanPage() {
             Mulai Scan
           </button>
           <button className="flex items-center justify-center gap-2 w-full border border-gray-200 text-[#666] font-medium py-3 rounded-full">
-            <Image size={16} />
+            <ImageIcon size={16} aria-hidden="true" />
             Pilih dari Galeri
           </button>
         </div>

@@ -5,7 +5,7 @@ import MobileContainer from '@/components/layout/MobileContainer';
 import PageHeader from '@/components/layout/PageHeader';
 import Button from '@/components/ui/Button';
 import Link from 'next/link';
-import { CreditCard, Wallet, Building2, ChevronRight } from 'lucide-react';
+import { CreditCard, Wallet, Building2 } from 'lucide-react';
 
 const paymentMethods = [
   { id: 'bca', label: 'BCA Virtual Account', icon: Building2, desc: 'Transfer bank BCA' },

@@ -4,7 +4,6 @@ import { useState } from 'react';
 import MobileContainer from '@/components/layout/MobileContainer';
 import PageHeader from '@/components/layout/PageHeader';
 import Input from '@/components/ui/Input';
-import Button from '@/components/ui/Button';
 import { ChevronRight } from 'lucide-react';
 
 export default function AccountSettingsPage() {

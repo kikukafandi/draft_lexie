@@ -12,6 +12,12 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Legacy Axure static export files (not part of Next.js app)
+    "resources/**",
+    "plugins/**",
+    "files/**",
+    "data/**",
+    "*.html",
   ]),
 ]);
 
